@@ -750,7 +750,7 @@ section,
 .hero p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin: 10px 0 0 0;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 500;
   letter-spacing: 1px;
 }
