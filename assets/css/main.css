@@ -170,7 +170,8 @@ h6 {
 }
 
 .header .header-social-links {
-  padding-right: 15px;
+  padding-right: 130px;
+  /* change this */
 }
 
 .header .header-social-links a {
@@ -1183,6 +1184,19 @@ section,
 
 .portfolio .portfolio-content:hover img {
   transform: scale(1.1);
+}
+
+.portfolio a {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.portfolio a:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
 /*--------------------------------------------------------------
