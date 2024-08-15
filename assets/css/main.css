@@ -819,7 +819,7 @@ section,
   line-height: 0;
 }
 
-.about .content a {
+.about .content .connect {
   color: var(--contrast-color);
   background: var(--accent-color);
   border: 0;
@@ -828,7 +828,7 @@ section,
   border-radius: 50px;
 }
 
-.about .content a:hover {
+.about .content .connect:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
