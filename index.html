@@ -7,7 +7,8 @@
   <title>Rollin Tan - Design Portfolio</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
-  <meta name="robots" content="noindex, nofollow, noodp, noydir, noarchive, nosnippet, notranslate, noimageindex, nocache">
+  <meta name="robots"
+    content="noindex, nofollow, noodp, noydir, noarchive, nosnippet, notranslate, noimageindex, nocache">
 
 
   <!-- Favicons -->
@@ -34,6 +35,31 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    @keyframes fadeIn {
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .fade {
+      animation: fadeIn .5s forwards;
+      opacity: 0;
+    }
+
+    .fade:nth-child(1) {
+      animation-delay: 0.5s;
+    }
+
+    .fade:nth-child(2) {
+      animation-delay: 2s;
+    }
+
+    .fade:nth-child(3) {
+      animation-delay: 3.5s;
+    }
+  </style>
 
 </head>
 
@@ -96,9 +122,14 @@
 
       <img src="assets/img/hero-bg.png" alt="" data-aos="fade-in">
 
+
+
       <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
-        <h2>Rollin Tan</h2>
-        <p>I'M A UX DESIGNER FROM SUNNY SINGAPORE</p>
+        <!-- <h2>Rollin Tan</h2>
+        <p>I'M A UX DESIGNER FROM SUNNY SINGAPORE</p> -->
+        <h2 class="fade">Hey there! 👋</h2>
+        <p class="fade">You've just ROLLED into my portfolio ...</p>
+        <p class="fade">Come on in — let me show you around!</p>
         <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
       </div>
 
@@ -351,9 +382,13 @@
 
         <span class="description-title">Portfolio</span>
         <h2>Portfolio</h2>
+        <p>For optimal viewing experience, please access my portfolio on a desktop or laptop computer. </p>
+        <p style="font-style: italic; font-weight: bold;">Best viewed at a resolution of 1920x1080 pixels or higher.</p>
       </div>
       <div class="container" data-aos="fade-up" data-aos-delay="100" align="center">
-        <img src="assets/img/construction2.gif" class="" alt=""> <br><br>
+        <!-- <img src="assets/intro.gif" width="80%" class="" alt="">  -->
+        <!-- <br><br> -->
+        <!-- <img src="assets/img/construction2.gif" class="" alt=""> <br><br> -->
         <div class="row gy-4 justify-content-center">
 
 
@@ -371,7 +406,7 @@
         <a href="https://drive.google.com/file/d/17E78boUKj7KxcRGnuunMDn8IDH54mZba/view?usp=sharing" target="_blank"
           class="btn">View My Old Portfolio</a> -->
 
-          <p align="center"><b>I’m currently giving my portfolio a fresh makeover with new projects added! </b>🎨 <br>
+          <!-- <p align="center"><b>I’m currently giving my portfolio a fresh makeover with new projects added! </b>🎨 <br>
             Please bear with me if you encounter any bugs or incomplete sections while viewing my in-progress portfolio
             below. Check back regularly to see the latest updates!
             <br><br>
@@ -383,149 +418,57 @@
               target="_blank" class="btn btn-warning me-2">View In-Progress Portfolio</a>
             <a href="https://drive.google.com/file/d/17E78boUKj7KxcRGnuunMDn8IDH54mZba/view?usp=sharing" target="_blank"
               class="btn btn-success">View Previous Portfolio</a>
-          </div>
-        </div>
-      </div><!-- End Section Title -->
+          </div> -->
 
-      <!-- <div class="container-fluid"> -->
-      <!--  -->
-      <!--         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order"> -->
-      <!--  -->
-      <!--           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100"> -->
-      <!--             <li data-filter="*" class="filter-active">All</li> -->
-      <!--             <li data-filter=".filter-app">App</li> -->
-      <!--             <li data-filter=".filter-product">Product</li> -->
-      <!--             <li data-filter=".filter-branding">Branding</li> -->
-      <!--             <li data-filter=".filter-books">Books</li> -->
-      <!--           </ul><!-- End Portfolio Filters -->
-      <!--  -->
-      <!--           <div class="row g-0 isotope-container" data-aos="fade-up" data-aos-delay="200"> -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/app-1.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/product-1.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/branding-1.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/books-1.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/app-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/product-2.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/branding-2.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/books-2.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-app"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/app-3.jpg" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-product"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/product-3.jpg" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/branding-3.jpg" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-books"> -->
-      <!--               <div class="portfolio-content h-100"> -->
-      <!--                 <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt=""> -->
-      <!--                 <div class="portfolio-info"> -->
-      <!--                   <a href="assets/img/portfolio/books-3.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
-      <!--                   <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-      <!--                 </div> -->
-      <!--               </div> -->
-      <!--             </div><!-- End Portfolio Item -->
-      <!--  -->
-      <!--           </div><!-- End Portfolio Container -->
-      <!--  -->
-      <!--         </div> -->
-      <!--  -->
-      <!--       </div> -->
+          <div class="row" style="margin-right: 5px; margin-left: 5px;">
+            <div class="col-md-6" style=" margin-top: 40px;">
+
+              <img src="assets/img/portfolio/project-x/c3_2.png" alt="" class="img-fluid">
+              <h4 style="margin-top: 20px;">DSTA Project: X</h4>
+              <p>A sophisticated C3 (Command, Control, and Communications) System to ensure effective operations and
+                situational awareness during missions.</p>
+
+              <a href="project-x.html" class="btn btn--primary" style="color: #fff; margin-right: 10px;">View
+                Project</a>
+              <!-- <button class="btn btn--primary" onclick="getPasswordPrompt()">Enter Password</button>
+              <script>
+                function getPasswordPrompt() {
+                  let password = window.prompt( "Please enter your password:" );
+                  if ( password !== null && password == "test" ) {
+                    console.log( "Password entered:", password );
+                     window.location.href = "project-x.html";
+                    // You can then use this password for validation or other actions
+                  } else {
+                    console.log( "No password entered or prompt cancelled." );
+                  }
+                }
+              </script> -->
+
+              <a href="https://www.figma.com/proto/fHOj9iSJc7uBEZEc0B4Bdo/heyrollin.com?page-id=0%3A1&node-id=760-3925&p=f&viewport=-9329%2C24855%2C1.23&t=9LUDo2E742PLvioz-9&scaling=contain&content-scaling=fixed&starting-point-node-id=760%3A3925&show-proto-sidebar=1"
+                class="btn btn--default" target="_blank"
+                style="background-color: #fff; border: 1px solid #ffbb27;">Interact in Figma</a>
+            </div>
+            <!-- view web / in interaction in figma button secondary -->
+
+            <div class="col-md-6" style=" margin-top: 40px;">
+
+              <img src="assets/img/portfolio/project-maugrowth/main.png" alt="" class="img-fluid">
+              <h4 style="margin-top: 20px;">SP Group Project: MAU Growth</h4>
+              <p>B2C experiences to drive user engagement and Monthly Active User (MAU) growth across SP Group's
+                Infinity product suite.</p>
+
+              <a href="project-maugrowth.html" class="btn btn--primary" style="color: #fff; margin-right: 10px;">View
+                Project</a>
+
+              <a href="https://www.figma.com/proto/fHOj9iSJc7uBEZEc0B4Bdo/heyrollin.com?page-id=0%3A1&node-id=1378-10305&p=f&viewport=-9329%2C24855%2C1.23&t=9LUDo2E742PLvioz-1&scaling=contain&content-scaling=fixed&starting-point-node-id=1432%3A11223&show-proto-sidebar=1"
+                class="btn btn--default" target="_blank"
+                style="background-color: #fff; border: 1px solid #ffbb27;">Interact in Figma</a>
+            </div>
+
+          </div>
+          <!-- End Section Title -->
+
+
 
 
     </section><!-- /Portfolio Section -->
